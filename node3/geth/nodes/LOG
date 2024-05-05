@@ -204,3 +204,39 @@
 16:35:23.409715 table@remove removed @42
 16:42:10.560313 db@close closing
 16:42:10.560690 db@close done T·385.848µs
+=============== May 5, 2024 (+08) ===============
+00:36:47.499240 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:36:47.500774 version@stat F·[0 1] S·642KiB[0B 642KiB] Sc·[0.00 0.01]
+00:36:47.500899 db@open opening
+00:36:47.501002 journal@recovery F·1
+00:36:47.502345 journal@recovery recovering @44
+00:36:47.518797 memdb@flush created L0@47 N·1491 S·45KiB "loc..seq,v110760":"n:\xff..ong,v109358"
+00:36:47.520925 version@stat F·[1 1] S·688KiB[45KiB 642KiB] Sc·[0.25 0.01]
+00:36:47.536103 db@janitor F·5 G·1
+00:36:47.536152 db@janitor removing table-43
+00:36:47.536232 db@open done T·35.319809ms
+00:36:53.868030 table@compaction L0·1 -> L1·1 S·688KiB Q·110812
+00:36:53.885749 table@build created L1@50 N·20664 S·657KiB "loc..seq,v110760":"version,v1"
+00:36:53.885871 version@stat F·[0 1] S·657KiB[0B 657KiB] Sc·[0.00 0.01]
+00:36:53.892983 table@compaction committed F-1 S-30KiB Ke·0 D·1040 T·24.642515ms
+00:36:53.893259 table@remove removed @46
+00:59:16.156002 db@close closing
+00:59:16.156190 db@close done T·187.586µs
+=============== May 5, 2024 (+08) ===============
+01:00:02.676846 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:00:02.677193 version@stat F·[0 1] S·657KiB[0B 657KiB] Sc·[0.00 0.01]
+01:00:02.677275 db@open opening
+01:00:02.677397 journal@recovery F·1
+01:00:02.680643 journal@recovery recovering @48
+01:00:02.711062 memdb@flush created L0@51 N·11219 S·252KiB "loc..seq,v111012":"n:\xff..ong,v119442"
+01:00:02.712820 version@stat F·[1 1] S·910KiB[252KiB 657KiB] Sc·[0.25 0.01]
+01:00:02.728474 db@janitor F·5 G·1
+01:00:02.728527 db@janitor removing table-47
+01:00:02.728618 db@open done T·51.327324ms
+01:00:09.424302 table@compaction L0·1 -> L1·1 S·910KiB Q·122024
+01:00:09.501587 table@build created L1@54 N·22124 S·690KiB "loc..seq,v111012":"version,v1"
+01:00:09.501758 version@stat F·[0 1] S·690KiB[0B 690KiB] Sc·[0.00 0.01]
+01:00:09.511179 table@compaction committed F-1 S-219KiB Ke·0 D·9759 T·86.746004ms
+01:00:09.511517 table@remove removed @50
+01:11:52.650010 db@close closing
+01:11:52.650237 db@close done T·225.251µs
